@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 120px; /* 高さ120px */
+  text-align: left;
+  background-color: lightgray; /* 背景色 */
+}
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 300px; /* 高さ300px */
+}
+.main {
+  width: 100%; /* 横幅いっぱい */
+  height: 1400px; /* 高さ1400px（多めに設定） */
+}
