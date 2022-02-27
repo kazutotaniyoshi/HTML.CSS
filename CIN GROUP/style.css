@@ -3,20 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body{
-  background-color: #ffdfe5;
+header {
+  background-color: lightgrey;
 }
-.header {
-  width: 100%; /* 横幅いっぱい */
-  height: 120px; /* 高さ120px */
-  text-align: left;
-  background-color: lightgray; /* 背景色 */
+main {
+  background-color: #FFEFD5;
 }
-.main-visual {
-  width: 100%; /* 横幅いっぱい */
-  height: 300px; /* 高さ300px */
+h2.slide-down {
+  background-color: #ffc7af;
 }
-.main {
-  width: 100%; /* 横幅いっぱい */
-  height: 1400px; /* 高さ1400px（多めに設定） */
+.carousel-inner {
+  height: 300px;
+  width: 100%;
+}
+
+.carousel img {
+  position: absolute;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel,
+  .carousel .item,
+  .carousel .item-mask,
+  .carousel-inner .item .item-mask img {
+    height: 400px;
+  }
 }
