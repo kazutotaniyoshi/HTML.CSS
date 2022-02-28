@@ -17,6 +17,10 @@ h2.slide-down {
   width: 100%;
 }
 
+.adress{
+  background-color: black;
+}
+
 .carousel img {
   position: absolute;
 }
@@ -29,7 +33,6 @@ h2.slide-down {
     height: 200px;
   }
 }
-
 @media (min-width: 768px) {
   .carousel,
   .carousel .item,
