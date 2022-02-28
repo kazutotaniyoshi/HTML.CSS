@@ -7,19 +7,18 @@ header {
   background-color: lightgrey;
 }
 main {
-  background-color: #FFEFD5;
+  background-color: #ffefd5;
 }
 h2.slide-down {
   background-color: #ffc7af;
 }
 .carousel-inner {
-  height: 300px;
+  height: 100%;
   width: 100%;
 }
 
 .carousel img {
   position: absolute;
-  width: 100%;
 }
 
 @media (min-width: 320px) {
