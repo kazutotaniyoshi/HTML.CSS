@@ -9,6 +9,16 @@ header {
 main {
   background-color: #ffefd5;
 }
+
+.container img {
+  width: 453px;
+  height: 307px;
+}
+
+.card {
+  background-color: darkgray;
+  height: 100px;
+}
 h2.slide-down {
   background-color: #ffc7af;
 }
