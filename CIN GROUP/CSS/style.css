@@ -17,8 +17,14 @@ h2.slide-down {
   width: 100%;
 }
 
-.adress{
+.adress {
   background-color: black;
+}
+
+.restaurant img {
+  border-radius: 90px;
+  width: 180px;
+  height: 180px;
 }
 
 .carousel img {
