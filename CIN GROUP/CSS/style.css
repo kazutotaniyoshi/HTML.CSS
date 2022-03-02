@@ -111,19 +111,3 @@ h2.slide-down {
   background: #333; /*ドットボタンの現在地表示の色*/
 }
 
-@media (min-width: 320px) {
-  .carousel,
-  .carousel .item,
-  .carousel .item-mask,
-  .carousel-inner .item .item-mask img {
-    height: 200px;
-  }
-}
-@media (min-width: 768px) {
-  .carousel,
-  .carousel .item,
-  .carousel .item-mask,
-  .carousel-inner .item .item-mask img {
-    height: 400px;
-  }
-}

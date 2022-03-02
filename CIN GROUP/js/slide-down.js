@@ -1,16 +1,4 @@
 
-/*--------------------------------------------------------------
-	
-	Script Name : Slide Down
-	Author      : FIRSTSTEP - Motohiro Tani
-	Author URL  : https://www.1-firststep.com
-	Create Date : 2018/10/28
-	Version     : 1.0
-	Last Update : 2018/10/28
-	
---------------------------------------------------------------*/
-
-
 (function( $ ) {
 	
 	// function slide_click
